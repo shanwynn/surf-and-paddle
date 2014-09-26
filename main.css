@@ -1,7 +1,178 @@
 * {
-  margin: 10px;
+  margin: 0px;
 }
 
 body {
-
+  font-family: 'Open Sans', sans-serif;
     }
+
+header {
+  background-image: url("images/headerkitty.jpg");
+  background-position: center;
+  background-size: cover;
+  color: #083452;
+  padding: 10px;
+  height: 555px;
+  width: 100%;
+}
+
+.header-bar {
+  margin: 0;
+}
+
+.blog {
+  display: inline-block;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 4em;
+  color: #083452;
+}
+
+h2 {
+  font-size: 2em;
+  color: #005AA9;
+}
+
+h3 {
+  float: right;
+  padding-top: 15px;
+}
+
+.about-search {
+  display: inline-block;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.25em;
+  float: right;
+}
+
+#search::after {
+  content: url(icons/search.png);
+}
+
+.title {
+  color: #fff;
+  font-size: 7em;
+  text-align: center;
+  position:relative;
+  top: 35%;
+  transform: translateY(-50%);
+}
+
+.subtitle {
+  text-align: center;
+  position:relative;
+  top: 20%;
+  transform: translateY(-50%);
+}
+
+.name {
+  color: #005AA9;
+  font-size: .90em;
+  font-weight: bold;
+}
+
+.read {
+  color: #fff;
+  font-size: .90em;
+  text-align: right;
+  display: inline-block;
+}
+
+.read-comments {
+  background-color: #A3B3BF;
+  height: 10px;
+  padding-top: 3px;
+  padding-left: 0;
+}
+
+.read-comments::before {
+  content: url(icons/comments.png);
+  background-color: #5E686F;
+  height: 25px;
+  float: left;
+}
+
+.read-later {
+  background-color: #A3B3BF;
+  height: 10px;
+  padding-top: 3px;
+  padding-left: 0;
+}
+
+.read-later::before {
+  content: url(icons/later.png);
+  background-color: #5E686F;
+  height: 25px;
+  float: left;
+}
+
+.share {
+  background-color: #106DB3;
+  height: 10px;
+  padding-top: 3px;
+  padding-left: 0;
+}
+
+.share::before {
+  content: url(icons/share.png);
+  background-color: #083452;
+  height: 25px;
+  float: left;
+}
+
+.sidebar-content {
+  color: #005AA9
+}
+
+.sidebar-heading {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1em;
+  color: #005AA9;
+}
+
+#name::before {
+content: "Anne Marie ";
+color: #005AA9;
+font-weight: bold;
+}
+
+.caption {
+  font-size: .90em;
+  color: #ACBBC6;
+}
+
+.image-bar {
+  display: inline block;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2em;
+  color: #083452;
+}
+
+footer {
+  background: #083452;
+  height: 90px;
+  width: 100%;
+  padding: 10px;
+  color: #ACBBC6;
+  font-size: .75em;
+  float: left;
+}
+
+.footer {
+  display: inline-block;
+  font-size: 1.25em;
+  float: right;
+}
+
+.copyright {
+  font-family: 'Open Sans', sans-serif;
+  float: left;
+}
+
+li {
+  display: inline-block;
+  list-style: none;
+  padding: 15px;
+}
