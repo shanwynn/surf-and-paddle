@@ -79,6 +79,7 @@ p {
 }
 
 .main-content {
+  /*background-color: red;*/
   display: inline-block;
   vertical-align: top;
   width: 45%;
@@ -151,6 +152,7 @@ after.main-content {
 }
 
 .sidebar-content {
+  /*background-color: red;*/
   padding: 20px;
   display: inline-block;
   vertical-align: top;
@@ -166,18 +168,20 @@ after.main-content {
   color: #005AA9;
 }
 
-#picon {
-width: 24px;
-height: 24px;
--webkit-border-radius: 12px;
--moz-border-radius: 12px;
-border-radius: 12px;
-background: url("images/30.jpg") no-repeat;
+#picon img {
+  float: left;
+  margin-right: 5px;
+  width: 24px;
+  height: 24px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+  background: url("images/30.jpg") no-repeat;
 }
 
 span {
-color: #005AA9;
-font-weight: bold;
+  color: #005AA9;
+  font-weight: bold;
 }
 
 .social-media {
@@ -197,10 +201,14 @@ font-weight: bold;
 }
 
 .caption {
-  width: 110%;
+  width: 115%;
   font-size: .90em;
   line-height: 20px;
   color: #ACBBC6;
+}
+
+#ad-link {
+  margin-left: 40%;
 }
 
 .tag {
@@ -209,17 +217,33 @@ font-weight: bold;
   margin-right: 275px;
 }
 
-.image-bar {
-  display: inline-block;
-  font-family: 'Oswald', sans-serif;
-  font-size: 2em;
-  color: #083452;
+hr {
+  color: #E3E8EB;
+  background-color: #E3E8EB;
+}
+
+.popular {
+  margin-left: 27%;
+  padding: 20px;
+}
+
+.photos {
+  position: relative;
+   width: 100%;
 }
 
 .photos img {
   width: 360px;
   height: 364px;
   float: left;
+}
+
+.image-text {
+  float: left;
+  display: inline-block;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2em;
+  color: #083452;
 }
 
 footer {
