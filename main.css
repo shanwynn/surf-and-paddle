@@ -89,6 +89,11 @@ after.main-content {
   clear: left;
 }
 
+.wrapper {
+  display: inline-block;
+
+}
+
 .name {
   color: #005AA9;
   font-size: .90em;
@@ -146,6 +151,7 @@ after.main-content {
 }
 
 .sidebar-content {
+  padding: 20px;
   display: inline-block;
   vertical-align: top;
   width: 40%;
@@ -160,17 +166,47 @@ after.main-content {
   color: #005AA9;
 }
 
-#name::before {
-content: "Anne Marie ";
+#picon {
+width: 24px;
+height: 24px;
+-webkit-border-radius: 12px;
+-moz-border-radius: 12px;
+border-radius: 12px;
+background: url("images/30.jpg") no-repeat;
+}
+
+span {
 color: #005AA9;
 font-weight: bold;
 }
 
+.social-media {
+  margin-left: 22%;
+  width: 100px;
+  height: 100px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  background: url("images/110.jpeg") no-repeat;
+}
+
+#am {
+  margin-left: 22%;
+  font-size: 1.25em;
+  letter-spacing: -1px;
+}
+
 .caption {
-  width: 50%;
+  width: 110%;
   font-size: .90em;
   line-height: 20px;
   color: #ACBBC6;
+}
+
+.tag {
+  float: left;
+  margin-top: 10px;
+  margin-right: 275px;
 }
 
 .image-bar {
