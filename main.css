@@ -26,9 +26,11 @@ header {
 }
 
 h1 {
+  float: left;
   font-family: 'Oswald', sans-serif;
   font-size: 4em;
   color: #083452;
+  line-height: 75px;
 }
 
 h2 {
@@ -39,6 +41,10 @@ h2 {
 h3 {
   float: right;
   padding-top: 15px;
+}
+
+p {
+  line-height: 30px;
 }
 
 .about-search {
@@ -72,6 +78,17 @@ h3 {
   letter-spacing: -1px;
 }
 
+.main-content {
+  display: inline-block;
+  vertical-align: top;
+  width: 45%;
+  margin: 50px;
+}
+
+after.main-content {
+  clear: left;
+}
+
 .name {
   color: #005AA9;
   font-size: .90em;
@@ -79,10 +96,11 @@ h3 {
 }
 
 .read {
+  display: inline-block;
   color: #fff;
   font-size: .90em;
   text-align: right;
-  display: inline-block;
+  padding: 15px;
 }
 
 .read-comments {
@@ -128,12 +146,17 @@ h3 {
 }
 
 .sidebar-content {
-  color: #005AA9
+  display: inline-block;
+  vertical-align: top;
+  width: 40%;
+  margin-left: 60px;
+  color: #005AA9;
 }
 
-.sidebar-heading {
+#sidebar-section {
+  float: left;
   font-family: 'Oswald', sans-serif;
-  font-size: 1em;
+  font-size: 1.25em;
   color: #005AA9;
 }
 
@@ -144,7 +167,9 @@ font-weight: bold;
 }
 
 .caption {
+  width: 50%;
   font-size: .90em;
+  line-height: 20px;
   color: #ACBBC6;
 }
 
