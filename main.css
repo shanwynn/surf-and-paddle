@@ -141,6 +141,14 @@ after.main-content {
   height: 25px;
 }
 
+.read-comments:hover {
+  background-color: #106DB3;
+}
+
+.read-comments:hover::before {
+  background-color: #083452;
+}
+
 .read-later {
   background-color: #A3B3BF;
   height: 10px;
@@ -155,8 +163,16 @@ after.main-content {
   height: 25px;
 }
 
-.share {
+.read-later:hover {
   background-color: #106DB3;
+}
+
+.read-later:hover::before {
+  background-color: #083452;
+}
+
+.share {
+  background-color: #A3B3BF;
   height: 10px;
   padding-top: 3px;
   padding-left: 0;
@@ -165,8 +181,16 @@ after.main-content {
 .share::before {
   float: left;
   content: url(icons/share.png);
-  background-color: #083452;
+  background-color: #5E686F;
   height: 25px;
+}
+
+.share:hover {
+  background-color: #106DB3;
+}
+
+.share:hover::before {
+  background-color: #083452;
 }
 
 .sidebar-content {
@@ -271,7 +295,7 @@ hr {
   width: 361px;
   height: 364px;
   background: #083452;
-  opacity:0.6;
+  opacity:0.5;
 }
 
 .image1:hover .blueO {
