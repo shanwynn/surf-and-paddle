@@ -255,36 +255,46 @@ hr {
 
 .image1 {
   float: left;
-  position:absolute;
-  left:0;
+  position:relative;
+  left: 0;
   top:36px;
+  width: 362px;
+  height: 364px;
+  background: url("images/364.jpeg") no-repeat;
+}
+
+.image1 .blueO {
+  float: left;
+  position: relative;
+  left:0;
+  width: 362px;
+  height: 364px;
+  background: #083452;
+  opacity:0.5;
+}
+
+.image1:hover .blueO {
+  opacity: 0;
 }
 
 .image2 {
-  float: left;
-  position:absolute;
   left:25%;
-  top:36px;
 }
 
 .image3 {
-  float:left;
-  position:absolute;
   left:50%;
-  top:36px;
 }
 
 .image4 {
-  float: left;
-  position:absolute;
   left:75%;
-  top:36px;
 }
 
 .photos img {
   float: left;
+  position:absolute;
   width: 362px;
   height: 364px;
+  top:36px;
 }
 
 .image-text1 {
@@ -292,12 +302,15 @@ hr {
   display: inline-block;
   font-family: 'Oswald', sans-serif;
   font-size: 2em;
-  /*color: #083452;*/
-  color: #fff;
+  color: #083452;
   z-index: 100;
   position:absolute;
   left:2%;
   top:350px;
+}
+
+.image-text1:hover {
+  color: #fff;
 }
 
 .image-text2 {
@@ -305,11 +318,15 @@ hr {
   display: inline-block;
   font-family: 'Oswald', sans-serif;
   font-size: 2em;
-  color: #fff;
+  color: #083452;
   z-index: 100;
   position:absolute;
   left:27%;
   top:350px;
+}
+
+.image-text2:hover {
+  color: #fff;
 }
 
 .image-text3 {
@@ -318,11 +335,15 @@ hr {
   line-height: 37px;
   font-family: 'Oswald', sans-serif;
   font-size: 2em;
-  color: #fff;
+  color: #083452;
   z-index: 100;
   position:absolute;
   left:52%;
   top:308px;
+}
+
+.image-text3:hover {
+  color: #fff;
 }
 
 .image-text4 {
@@ -330,11 +351,15 @@ hr {
   display: inline-block;
   font-family: 'Oswald', sans-serif;
   font-size: 2em;
-  color: #fff;
+  color: #083452;
   z-index: 100;
   position:absolute;
   left:77%;
   top:350px;
+}
+
+.image-text4:hover {
+  color: #fff;
 }
 
 footer {
