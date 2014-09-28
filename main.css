@@ -48,11 +48,6 @@ h2 {
   border-left: solid #D1D1D1;
 }
 
-/*.vertical-small {
-  border-left: thin solid #D1D1D1;
-  }*/
-
-
 h3 {
   float: right;
   padding-top: 15px;
@@ -60,6 +55,28 @@ h3 {
 
 p {
   line-height: 30px;
+}
+
+a:visited {
+  color: #ABB9C4;
+}
+
+a:link {
+  color: #ABB9C4;
+}
+
+#sm a:visited {
+  color: #ABB9C4;
+  text-decoration: none;
+}
+
+#sm a:link {
+  color: #ABB9C4;
+  text-decoration: none;
+}
+
+#rollover:hover {
+  color: #005AA9;
 }
 
 .about-search {
@@ -242,11 +259,24 @@ span {
   letter-spacing: -1px;
 }
 
-.caption {
+.caption-small {
   width: 115%;
+  margin-left: 0;
   font-size: .90em;
   line-height: 20px;
   color: #ACBBC6;
+}
+.caption {
+  width: 100%;
+  margin-left: 0;
+  font-size: .90em;
+  line-height: 20px;
+  color: #ACBBC6;
+}
+
+ul .caption {
+  float: left;
+  display: inline-block;
 }
 
 #ad-link {
