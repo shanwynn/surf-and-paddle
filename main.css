@@ -249,9 +249,8 @@ hr {
 .photos {
   float: left;
   height:400px;
-  width:400px;
+  width:100%;
   position: relative;
-   width: 100%;
 }
 
 .image1 {
@@ -283,9 +282,9 @@ hr {
 }
 
 .photos img {
-  width: 360px;
-  height: 364px;
   float: left;
+  width: 362px;
+  height: 364px;
 }
 
 .image-text1 {
