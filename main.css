@@ -18,16 +18,30 @@ header {
   color: #083452;
   padding: 10px;
   height: 555px;
-  width: 100%;
+  width: 99%;
 }
 
 .header-bar {
-  margin: 0;
+  margin: 10px;
 }
 
 .blog {
   display: inline-block;
+  margin-left: 10%;
   letter-spacing: -2px;
+}
+
+.about-search {
+  float: right;
+  display: inline-block;
+  margin-right: 10%;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.25em;
+
+}
+
+#search::after {
+  content: url(icons/search.png);
 }
 
 h1 {
@@ -77,18 +91,6 @@ a:link {
 
 #rollover:hover {
   color: #005AA9;
-}
-
-.about-search {
-  float: right;
-  display: inline-block;
-  font-family: 'Oswald', sans-serif;
-  font-size: 1.25em;
-
-}
-
-#search::after {
-  content: url(icons/search.png);
 }
 
 .title {
@@ -386,7 +388,7 @@ hr {
   position:relative;
   left: 0;
   top:36px;
-  width: 361px;
+  width: 362px;
   height: 364px;
   background: url("images/330.jpeg") no-repeat;
 }
@@ -395,7 +397,7 @@ hr {
   float: left;
   position: relative;
   left:0;
-  width: 361px;
+  width: 362px;
   height: 364px;
   background: #083452;
   opacity:0.6;
@@ -481,7 +483,7 @@ hr {
 footer {
   background: #083452;
   height: 90px;
-  width: 100%;
+  width: 99%;
   padding: 10px;
   color: #ACBBC6;
   font-size: .75em;
@@ -491,12 +493,14 @@ footer {
 .footer {
   float: right;
   display: inline-block;
+  margin-right: 10%;
   font-size: 1.25em;
 }
 
 .copyright {
-  font-family: 'Open Sans', sans-serif;
   float: left;
+  margin-left: 10%;
+  font-family: 'Open Sans', sans-serif;
 }
 
 li {
