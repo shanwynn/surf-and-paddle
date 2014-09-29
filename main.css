@@ -485,12 +485,14 @@ footer {
 .footer {
   float: right;
   display: inline-block;
+  padding-top: 15px;
   margin-right: 10%;
   font-size: 1.25em;
 }
 
 .copyright {
   float: left;
+  padding-top: 15px;
   margin-left: 10%;
   font-family: 'Open Sans', sans-serif;
 }
