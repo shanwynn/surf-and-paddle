@@ -114,7 +114,6 @@ a:link {
 }
 
 .main-content {
-  /*background-color: red;*/
   display: inline-block;
   vertical-align: top;
   width: 45%;
@@ -213,7 +212,6 @@ after.main-content {
 }
 
 .sidebar-content {
-  /*background-color: red;*/
   padding: 20px;
   display: inline-block;
   vertical-align: top;
