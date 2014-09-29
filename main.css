@@ -325,7 +325,7 @@ hr {
   float: left;
   position: relative;
   left:0;
-  width: 361px;
+  width: 360px;
   height: 364px;
   background: #083452;
   opacity:0.5;
@@ -340,7 +340,7 @@ hr {
   position:relative;
   left: 0;
   top:36px;
-  width: 361px;
+  width: 360px;
   height: 364px;
   background: url("images/ribeye325.jpg") no-repeat;
 }
@@ -349,7 +349,7 @@ hr {
   float: left;
   position: relative;
   left:0;
-  width: 361px;
+  width: 360px;
   height: 364px;
   background: #083452;
   opacity:0.6;
@@ -364,7 +364,7 @@ hr {
   position:relative;
   left: 0;
   top:36px;
-  width: 361px;
+  width: 360px;
   height: 364px;
   background: url("images/salami360.jpg") no-repeat;
 }
@@ -373,7 +373,7 @@ hr {
   float: left;
   position: relative;
   left:0;
-  width: 361px;
+  width: 360px;
   height: 364px;
   background: #083452;
   opacity:0.6;
@@ -388,7 +388,7 @@ hr {
   position:relative;
   left: 0;
   top:36px;
-  width: 362px;
+  width: 360px;
   height: 364px;
   background: url("images/330.jpeg") no-repeat;
 }
@@ -397,7 +397,7 @@ hr {
   float: left;
   position: relative;
   left:0;
-  width: 362px;
+  width: 360px;
   height: 364px;
   background: #083452;
   opacity:0.6;
@@ -405,14 +405,6 @@ hr {
 
 .image4:hover .blueO {
   opacity: 0;
-}
-
-.photos img {
-  float: left;
-  position:absolute;
-  width: 361px;
-  height: 364px;
-  top:36px;
 }
 
 .image-text1 {
