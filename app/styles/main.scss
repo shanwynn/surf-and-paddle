@@ -50,10 +50,10 @@ p {
 
 a:visited {
   color: $gray;
-}
 
-a:link {
+ :link {
   color: $gray;
+  }
 }
 
 body {
@@ -68,16 +68,16 @@ header {
   padding: 10px;
   height: 555px;
   width: 99%;
-}
 
-.header-bar {
-  margin: 10px;
-}
+  .header-bar {
+    margin: 10px;
 
-.blog {
-  float: left;
-  margin-left: 10%;
-  letter-spacing: -2px;
+  .blog {
+    float: left;
+    margin-left: 10%;
+    letter-spacing: -2px;
+    }
+  }
 }
 
 .about-search {
@@ -85,7 +85,6 @@ header {
   margin-right: 10%;
   font-family: $font-secondary;
   font-size: 1.25em;
-
 }
 
 .search::after {
@@ -93,13 +92,11 @@ header {
 }
 
 .social-media-sites a:visited {
-  color: $gray;
   text-decoration: none;
-}
 
-.social-media-sites a:link {
-  color: $gray;
+  a:link {
   text-decoration: none;
+  }
 }
 
 .rollover:hover {
@@ -133,12 +130,10 @@ header {
   vertical-align: top;
   width: 45%;
   margin: 50px;
-}
 
-
-
-after.main-content {
-  clear: left;
+  after {
+    clear: left;
+  }
 }
 
 .tiny-wrapper {
@@ -165,21 +160,21 @@ after.main-content {
   height: 10px;
   padding-top: 3px;
   padding-left: 0;
-}
 
-.read-comments::before {
-  float: left;
-  content: url("../icons/comments.png");
-  background-color: $dark-gray;
-  height: 25px;
-}
+    &::before {
+    float: left;
+    content: url("../icons/comments.png");
+    background-color: $dark-gray;
+    height: 25px;
 
-.read-comments:hover {
-  background-color: $medium-blue;
-}
+      &:hover {
+      background-color: $medium-blue;
 
-.read-comments:hover::before {
-  background-color: $dark-blue;
+        &::before {
+        background-color: $dark-blue;
+      }
+    }
+  }
 }
 
 .read-later {
@@ -187,21 +182,21 @@ after.main-content {
   height: 10px;
   padding-top: 3px;
   padding-left: 0;
-}
 
-.read-later::before {
-  float: left;
-  content: url("../icons/later.png");
-  background-color: $dark-gray;
-  height: 25px;
-}
+    &::before {
+    float: left;
+    content: url("../icons/later.png");
+    background-color: $dark-gray;
+    height: 25px;
 
-.read-later:hover {
-  background-color: $medium-blue;
-}
+      &:hover {
+      background-color: $medium-blue;
 
-.read-later:hover::before {
-  background-color: $dark-blue;
+        &::before {
+        background-color: $dark-blue;
+      }
+    }
+  }
 }
 
 .share {
@@ -209,21 +204,21 @@ after.main-content {
   height: 10px;
   padding-top: 3px;
   padding-left: 0;
-}
 
-.share::before {
-  float: left;
-  content: url("../icons/share.png");
-  background-color: $dark-gray;
-  height: 25px;
-}
+    &:before {
+    float: left;
+    content: url("../icons/share.png");
+    background-color: $dark-gray;
+    height: 25px;
 
-.share:hover {
-  background-color: $medium-blue;
-}
+      &:hover {
+      background-color: $medium-blue;
 
-.share:hover::before {
-  background-color: $dark-blue;
+        &::before {
+        background-color: $dark-blue;
+      }
+    }
+  }
 }
 
 .sidebar-content {
@@ -338,14 +333,14 @@ li {
   width: 360px;
   height: 364px;
   background: url("../images/364.jpeg") no-repeat;
-}
 
-.image1 .blue{
-  @extend .blue
-}
+    .blue{
+      @extend .blue;
 
-.image1:hover .blue {
-  opacity: 0;
+      &:hover .blue {
+      opacity: 0;
+    }
+  }
 }
 
 .image2 {
@@ -356,14 +351,14 @@ li {
   width: 360px;
   height: 364px;
   background: url("../images/ribeye325.jpg") no-repeat;
-}
 
-.image2 .blue{
-  @extend .blue
-}
+    .blue{
+      @extend .blue;
 
-.image2:hover .blue {
-  opacity: 0;
+      &:hover .blue {
+      opacity: 0;
+    }
+  }
 }
 
 .image3 {
@@ -374,14 +369,14 @@ li {
   width: 360px;
   height: 364px;
   background: url("../images/salami360.jpg") no-repeat;
-}
 
-.image3 .blue {
-  @extend .blue
-}
+    .blue {
+      @extend .blue;
 
-.image3:hover .blue {
-  opacity: 0;
+      &:hover .blue {
+      opacity: 0;
+    }
+  }
 }
 
 .image4 {
@@ -392,14 +387,14 @@ li {
   width: 360px;
   height: 364px;
   background: url("../images/330.jpeg") no-repeat;
-}
 
-.image4 .blue {
-  @extend .blue
-}
+    .blue {
+      @extend .blue;
 
-.image4:hover .blue {
-  opacity: 0;
+      &:hover .blue {
+      opacity: 0;
+    }
+  }
 }
 
 .image-text1 {
@@ -411,10 +406,10 @@ li {
   position:absolute;
   left:2%;
   top:350px;
-}
 
-.image-text1:hover {
-  color: $white;
+    &:hover {
+    color: $white;
+  }
 }
 
 .image-text2 {
@@ -426,10 +421,10 @@ li {
   position:absolute;
   left:27%;
   top:350px;
-}
 
-.image-text2:hover {
-  color: $white;
+    &:hover {
+    color: $white;
+  }
 }
 
 .image-text3 {
@@ -442,10 +437,10 @@ li {
   position:absolute;
   left:52%;
   top:308px;
-}
 
-.image-text3:hover {
-  color: $white;
+    &:hover {
+    color: $white;
+  }
 }
 
 .image-text4 {
@@ -457,10 +452,10 @@ li {
   position:absolute;
   left:77%;
   top:350px;
-}
 
-.image-text4:hover {
-  color: $white;
+    &:hover {
+    color: $white;
+  }
 }
 
 footer {
@@ -471,18 +466,46 @@ footer {
   padding: 10px;
   color: #ACBBC6;
   font-size: .75em;
+
+  .footer {
+    float: right;
+    padding-top: 15px;
+    margin-right: 10%;
+    font-size: 1.25em;
+
+  .copyright {
+    float: left;
+    padding-top: 15px;
+    margin-left: 10%;
+    font-family: $font-main;
+    }
+  }
 }
 
-.footer {
-  float: right;
-  padding-top: 15px;
-  margin-right: 10%;
-  font-size: 1.25em;
+/*tablet size*/
+@media screen and (max-width: 1024px) {
+  .title {
+    font-size: 5em;
+    text-align: center;
+    top: 15%; }
 }
 
-.copyright {
-  float: left;
-  padding-top: 15px;
-  margin-left: 10%;
-  font-family: $font-main;
+/*smart phone size*/
+@media screen and (max-width: 600px) {
+  .title {
+    font-size: 2.5em;
+    text-align: center;
+    top: 5%; }
+
+    .about-search {
+      float: none;
+      margin: 20%;
+      font-family: $font-secondary;
+      font-size: 1.25em;
+    }
+
+    .search::after {
+      content: url("../icons/search.png");
+    }
+
 }
