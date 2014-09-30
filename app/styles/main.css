@@ -255,6 +255,15 @@ li {
   width: 100%;
   position: relative; }
 
+.blue, .image1 .blue, .image2 .blue, .image3 .blue, .image4 .blue {
+  float: left;
+  position: relative;
+  left: 0;
+  width: 360px;
+  height: 364px;
+  background: #083452;
+  opacity: 0.7; }
+
 .image1 {
   float: left;
   position: relative;
@@ -264,16 +273,7 @@ li {
   height: 364px;
   background: url("../images/364.jpeg") no-repeat; }
 
-.image1 .blue {
-  float: left;
-  position: relative;
-  left: 0;
-  width: 360px;
-  height: 364px;
-  background: #083452;
-  opacity: 0.7; }
-
-.image1:hover .blue {
+.image1:hover .blue, .image1:hover .image1 .blue, .image1 .image1:hover .blue, .image1:hover .image2 .blue, .image2 .image1:hover .blue, .image1:hover .image3 .blue, .image3 .image1:hover .blue, .image1:hover .image4 .blue, .image4 .image1:hover .blue {
   opacity: 0; }
 
 .image2 {
@@ -285,16 +285,7 @@ li {
   height: 364px;
   background: url("../images/ribeye325.jpg") no-repeat; }
 
-.image2 .blue {
-  float: left;
-  position: relative;
-  left: 0;
-  width: 360px;
-  height: 364px;
-  background: #083452;
-  opacity: 0.7; }
-
-.image2:hover .blue {
+.image2:hover .blue, .image2:hover .image1 .blue, .image1 .image2:hover .blue, .image2:hover .image2 .blue, .image2 .image2:hover .blue, .image2:hover .image3 .blue, .image3 .image2:hover .blue, .image2:hover .image4 .blue, .image4 .image2:hover .blue {
   opacity: 0; }
 
 .image3 {
@@ -306,16 +297,7 @@ li {
   height: 364px;
   background: url("../images/salami360.jpg") no-repeat; }
 
-.image3 .blue {
-  float: left;
-  position: relative;
-  left: 0;
-  width: 360px;
-  height: 364px;
-  background: #083452;
-  opacity: 0.7; }
-
-.image3:hover .blue {
+.image3:hover .blue, .image3:hover .image1 .blue, .image1 .image3:hover .blue, .image3:hover .image2 .blue, .image2 .image3:hover .blue, .image3:hover .image3 .blue, .image3 .image3:hover .blue, .image3:hover .image4 .blue, .image4 .image3:hover .blue {
   opacity: 0; }
 
 .image4 {
@@ -327,16 +309,7 @@ li {
   height: 364px;
   background: url("../images/330.jpeg") no-repeat; }
 
-.image4 .blue {
-  float: left;
-  position: relative;
-  left: 0;
-  width: 360px;
-  height: 364px;
-  background: #083452;
-  opacity: 0.7; }
-
-.image4:hover .blue {
+.image4:hover .blue, .image4:hover .image1 .blue, .image1 .image4:hover .blue, .image4:hover .image2 .blue, .image2 .image4:hover .blue, .image4:hover .image3 .blue, .image3 .image4:hover .blue, .image4:hover .image4 .blue, .image4 .image4:hover .blue {
   opacity: 0; }
 
 .image-text1 {
