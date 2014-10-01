@@ -415,10 +415,18 @@ footer {
   .title {
     font-size: 5em;
     text-align: center;
-    top: 15%; } }
+    top: 15%; }
+  .main-content {
+    width: 100%;
+    margin: 5%;
+    text-align: center; } }
 
 @media screen and (max-width: 600px) {
   .title {
     font-size: 2.5em;
     text-align: center;
-    top: 5%; } }
+    top: 5%; }
+  .main-content {
+    width: 100%;
+    margin: 5%;
+    text-align: center; } }
