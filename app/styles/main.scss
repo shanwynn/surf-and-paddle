@@ -259,6 +259,15 @@ span {
   background: url("../images/110.jpeg") no-repeat;
 }
 
+.social-media:hover {
+  transition: all 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  transform: scale(2);
+  -webkit-transform: scale(2);
+  -moz-transform: scale(2);
+}
+
 .anne-marie {
   margin-left: 22%;
   font-size: 1.25em;
@@ -529,18 +538,46 @@ footer {
     text-align: center;
     top: 15%; }
 
-    h1 {
-      font-size: 2em;
-    }
+  h1 {
+    font-size: 3em;
+  }
 
-    h2 {
-      font-size: 1.5em;
-    }
+  h2 {
+    font-size: 1.5em;
+  }
 
   .main-content {
     width: 90%;
     margin: 5%;
     text-align: center;
+  }
+
+  .sidebar-content {
+    display: inline-block;
+    width: 100%;
+    margin: 20% auto;
+  }
+
+  .social-media {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 30%;
+  }
+
+  .anne-marie {
+    display: inline-block;
+    margin-left: 30%;
+  }
+
+  .social-media-sites {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 50%;
+    margin-bottom: 20%;
+  }
+  .ad-photo {
+    display: inline-block;
+    padding-top: 50px;
   }
 
   .tag {
@@ -550,9 +587,13 @@ footer {
   }
 
   .photos {
-    width: 50%;
-    height: 50%;
-    margin: 0 auto;
+    width: 99%;
+    height: auto;
+    margin: 10%;
+  }
+
+  .all-text {
+    display: none;
   }
 
   footer {
@@ -573,20 +614,26 @@ footer {
 
 
 @media screen and (max-width: 600px) {
+
   .title {
+    display: inline-block;
     font-size: 2.5em;
-    text-align: center;
-    left-margin: 0 auto;
+    left-margin: 0;
     top: 5%; }
 
-    h1 {
-      font-size: 2em;
-      line-height: 40px;
-    }
+  .about-search {
+    margin-right: 5%;
+  }
 
-    h2 {
-      font-size: 1em;
-    }
+  h1 {
+    font: center;
+    font-size: 1.5em;
+    line-height: 40px;
+  }
+
+  h2 {
+    font-size: 1em;
+  }
 
   .main-content {
     width: 90%;
@@ -602,11 +649,44 @@ footer {
     padding: 15px;
   }
 
+  .sidebar-content {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .social-media {
+    vertical-align: top;
+    margin-left: 30%;
+  }
+
+  .anne-marie {
+    margin-left: 30%;
+  }
+
+  .social-media-sites {
+    margin-left: 0;
+    margin-bottom: 20%;
+  }
+  .ad-photo {
+    padding-top: 50px;
+  }
+
   .tag {
     float: left;
     margin-top: 10px;
-    margin-right: 5px;
-}
+    margin-right: 15px;
+  }
+
+  .photos {
+      width: 99%;
+      height: auto;
+      margin: 5%;
+      margin-bottom: 10%;
+  }
+
+  .all-text {
+    display: none;
+  }
 
   footer {
     float: left;
